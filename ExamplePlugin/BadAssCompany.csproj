@@ -70,8 +70,8 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /y &quot;C:\Users\Bigma Male\Documents\BadAssCompany\ExamplePlugin\bin\Debug\netstandard2.1\BadAssCompany.dll&quot; &quot;C:\Users\Bigma Male\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\badassemotes\BadAssCompany.dll&quot;" />
-    <Exec Command="copy /y &quot;C:\Users\Bigma Male\Documents\BadAssCompany\ExamplePlugin\bin\Debug\netstandard2.1\BadAssCompany.dll&quot; &quot;C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\badassemotes\BadAssCompany.dll&quot;" />
+    <Exec Command="copy /y &quot;C:\Users\Bigma Male\Documents\New BAC\BadAssCompany\ExamplePlugin\bin\Debug\netstandard2.1\BadAssCompany.dll&quot; &quot;C:\Users\Bigma Male\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\Default\BepInEx\plugins\badassemotes\BadAssCompany.dll&quot;" />
+    <Exec Command="copy /y &quot;C:\Users\Bigma Male\Documents\New BAC\BadAssCompany\ExamplePlugin\bin\Debug\netstandard2.1\BadAssCompany.dll&quot; &quot;C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\badassemotes\BadAssCompany.dll&quot;" />
   </Target>
 
 </Project>
