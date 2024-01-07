@@ -7,12 +7,12 @@ using UnityEngine;
 
 namespace ExamplePlugin
 {
-    public static class Assets
+    internal static class Assets
     {
         internal static readonly List<AssetBundle> AssetBundles = new List<AssetBundle>();
         private static readonly Dictionary<string, int> AssetIndices = new Dictionary<string, int>();
 
-        public static void LoadAssetBundlesFromFolder(string folderName)
+        internal static void LoadAssetBundlesFromFolder(string folderName)
         {
             folderName = Path.Combine(Path.GetDirectoryName(BadAssEmotesPlugin.PInfo.Location), folderName);
             foreach (var file in Directory.GetFiles(folderName))
@@ -36,7 +36,7 @@ namespace ExamplePlugin
             }
         }
 
-        public static T Load<T>(string assetName) where T : UnityEngine.Object
+        internal static T Load<T>(string assetName) where T : UnityEngine.Object
         {
             try
             {

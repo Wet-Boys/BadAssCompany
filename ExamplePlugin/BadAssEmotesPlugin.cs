@@ -21,7 +21,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badasscompany";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssCompany";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.3";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -205,10 +205,10 @@ namespace ExamplePlugin
 
             //update 6
             AddAnimation("KillMeBaby", "KillMeBaby", "", false, true, true, AnimationClipParams.LockType.headBobbing, "Kill Me Baby", "KillMeBaby", "", true, .7f);
-            //CustomEmotesAPI.AddCustomAnimation(new AnimationClipParams() { animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorld.anim") }, looping = true, _primaryAudioClips = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/MyWorld.ogg") }, dimWhenClose = true, syncAnim = true, syncAudio = true, joinSpots = new JoinSpot[] { new JoinSpot("MyWorldJoinSpot", new Vector3(2, 0, 0)) } });
-            //CustomEmotesAPI.AddCustomAnimation(new AnimationClipParams() { animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorldJoin.anim") }, looping = true, _primaryAudioClips = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/MyWorld.ogg") }, dimWhenClose = true, syncAnim = true, syncAudio = true, visible = false });
-            //BoneMapper.animClips["MyWorldJoin"].syncPos--;
-            //BoneMapper.animClips["MyWorldJoin"].vulnerableEmote = true;
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClipParams() { animationClip = [Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorld.anim")], looping = true, _primaryAudioClips = [Assets.Load<AudioClip>($"assets/compressedaudio/MyWorld.ogg")], dimWhenClose = true, syncAnim = true, syncAudio = true, joinSpots = new JoinSpot[] { new JoinSpot("MyWorldJoinSpot", new Vector3(2, 0, 0)) }, lockType = AnimationClipParams.LockType.headBobbing, _primaryDMCAFreeAudioClips = [Assets.Load<AudioClip>($"assets/DMCAMusic/MyWorld_NNTranscription.ogg")], audioLevel = .7f, willGetClaimedByDMCA = true });
+            CustomEmotesAPI.AddCustomAnimation(new AnimationClipParams() { animationClip = [Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/MyWorldJoin.anim")], looping = true, _primaryAudioClips = [Assets.Load<AudioClip>($"assets/compressedaudio/MyWorld.ogg")], dimWhenClose = true, syncAnim = true, syncAudio = true, visible = false, lockType = AnimationClipParams.LockType.headBobbing, audioLevel = 0, _primaryDMCAFreeAudioClips = [Assets.Load<AudioClip>($"assets/DMCAMusic/MyWorld_NNTranscription.ogg")], willGetClaimedByDMCA = true });
+            BoneMapper.animClips["MyWorldJoin"].syncPos--;
+            BoneMapper.animClips["MyWorldJoin"].vulnerableEmote = true;
             CustomEmotesAPI.AddCustomAnimation(new AnimationClipParams() { animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/VSWORLD.anim") }, looping = true, _primaryAudioClips = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/VSWORLD.ogg") }, dimWhenClose = true, syncAnim = true, syncAudio = true, joinSpots = new JoinSpot[] { new JoinSpot("VSWORLDJoinSpot", new Vector3(-2, 0, 0)) }, lockType = AnimationClipParams.LockType.headBobbing, _primaryDMCAFreeAudioClips = new AudioClip[] { Assets.Load<AudioClip>($"assets/DMCAMusic/VSWORLD_NNTranscription.ogg") }, audioLevel= .7f });
             CustomEmotesAPI.AddCustomAnimation(new AnimationClipParams() { animationClip = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/VSWORLDLEFT.anim") }, looping = true, _primaryAudioClips = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/VSWORLD.ogg") }, dimWhenClose = true, syncAnim = true, syncAudio = true, visible = false, lockType = AnimationClipParams.LockType.headBobbing, _primaryDMCAFreeAudioClips = new AudioClip[] { Assets.Load<AudioClip>($"assets/DMCAMusic/VSWORLD_NNTranscription.ogg") } });
             BoneMapper.animClips["VSWORLDLEFT"].syncPos--;
@@ -450,6 +450,8 @@ namespace ExamplePlugin
 
 
                 host.PlayAnim("DuckThisOne", 0);
+                joiner.currentlyLockedBoneMapper = host;
+
 
                 g = new GameObject();
                 g.name = "DuckThisOneHostProp";
@@ -478,6 +480,7 @@ namespace ExamplePlugin
                 g.transform.localEulerAngles = new Vector3(0, 0, 0);
                 g.transform.localScale = Vector3.one;
                 joiner.AssignParentGameObject(g, true, true, true, true, true);
+                joiner.currentlyLockedBoneMapper = host;
                 emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
             }
             if (emoteSpotName == "Mikuru_Asahina")
@@ -497,6 +500,7 @@ namespace ExamplePlugin
                 g.transform.localEulerAngles = new Vector3(0, 0, 0);
                 g.transform.localScale = Vector3.one;
                 joiner.AssignParentGameObject(g, true, true, true, true, true);
+                joiner.currentlyLockedBoneMapper = host;
                 emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
             }
             if (emoteSpotName == "MyWorldJoinSpot")
@@ -507,10 +511,12 @@ namespace ExamplePlugin
                 g.name = "MyWorldJoinProp";
                 joiner.props.Add(g);
                 g.transform.SetParent(host.transform);
-                g.transform.localPosition = new Vector3(0, 0, 0);
+                g.transform.localPosition = new Vector3(2, 0, 0);
                 g.transform.localEulerAngles = Vector3.zero;
                 g.transform.localScale = Vector3.one;
                 joiner.AssignParentGameObject(g, true, true, true, true, true);
+                joiner.currentlyLockedBoneMapper = host;
+
                 emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
             }
             if (emoteSpotName == "VSWORLDJoinSpot")
@@ -530,6 +536,8 @@ namespace ExamplePlugin
                 host.transform.parent.localScale = scale;
                 //g.transform.SetParent(host.transform.parent);
                 joiner.AssignParentGameObject(g, true, true, false, false, true);
+                joiner.currentlyLockedBoneMapper = host;
+
                 emoteSpot.GetComponent<EmoteLocation>().SetEmoterAndHideLocation(joiner);
             }
         }
@@ -646,7 +654,7 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.SetParent(mapper.transform);
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
-                mapper.SetAutoWalk(1, true);
+                mapper.SetAutoWalk(1, false);
                 mapper.ScaleProps();
             }
             if (newAnimation == "BimBamBom")
@@ -666,6 +674,9 @@ namespace ExamplePlugin
                 mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
                 mapper.props[prop1].transform.localPosition = Vector3.zero;
                 mapper.ScaleProps();
+                //Animator a = mapper.props[prop1].GetComponentInChildren<Animator>();
+
+                //a.Play("Summertime", 0, (CustomAnimationClip.syncTimer[mapper.currentClip.syncPos] % a.GetCurrentAnimatorClipInfo(0)[0].clip.length) / a.GetCurrentAnimatorClipInfo(0)[0].clip.length);
             }
             if (newAnimation == "Float")
             {
@@ -700,6 +711,10 @@ namespace ExamplePlugin
             if (newAnimation == "SpringLoaded")
             {
                 mapper.SetAutoWalk(-1, false);
+            }
+            if (newAnimation == "FloorSamus")
+            {
+                mapper.SetAutoWalk(.5f, false);
             }
             if (newAnimation == "DuckThisOneIdle")
             {
