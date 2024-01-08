@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LivingParticlesAudioSource : MonoBehaviour {
-    public AudioClip audioClip;
 
     [Range(0.1f, 2f)]
     public float bufferInitialDecreaseSpeed = 1f;
@@ -48,7 +47,7 @@ public class LivingParticlesAudioSource : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         audioSource = GetComponent<AudioSource>();
-        AudioProfile(audioProfileInitialValue);
+        AudioProfile(audioProfileInitialValue);        
     }
 	
 	// Update is called once per frame
