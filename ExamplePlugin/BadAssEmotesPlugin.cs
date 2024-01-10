@@ -21,7 +21,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badasscompany";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssCompany";
-        public const string PluginVersion = "1.0.3";
+        public const string PluginVersion = "1.0.4";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -170,7 +170,7 @@ namespace ExamplePlugin
             //BoneMapper.animClips["Train"].vulnerableEmote = true;
             //CustomEmotesAPI.BlackListEmote("Train");
 
-            AddAnimation("BimBamBom", "BimBamBom", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Bim Bam Boom", "BimBamBom", "", false, .7f);
+            AddAnimation("BimBamBom", "BimBamBom", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Bim Bam Boom", "BimBamBom", "", true, .7f);
             AddAnimation("Savage", "Savage", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Savage", "", true, .7f);
             AddAnimation("Stuck", "Stuck", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Stuck", "", true, .7f);
             AddAnimation("Roflcopter", "Roflcopter", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Roflcopter", "", false, .7f);
