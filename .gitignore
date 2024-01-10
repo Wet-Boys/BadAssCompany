@@ -339,6 +339,7 @@ Thundersomebitches/Assets/BadAssEmotes.dll
 Thundersomebitches/Assets/BadAssEmotes.dll.meta
 Thundersomebitches/Assets/BadAssEmotes.dll.meta
 Thundersomebitches/Library/ArtifactDB
+BadAssEmotesUnity/Library/PackageCache/
 
 
 
@@ -348,5 +349,4 @@ ExamplePlugin/BadAssEmotes3.bnk
 ExamplePlugin/ifubundle
 ExamplePlugin/ifu.wav
 ExamplePlugin/badassemotes
-
 *.dylib
