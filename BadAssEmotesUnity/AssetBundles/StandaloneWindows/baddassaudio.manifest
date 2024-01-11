@@ -1,0 +1,318 @@
+ManifestFileVersion: 0
+CRC: 3716000121
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 82dac22d912f5474ea364bec63e53674
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 82dac22d912f5474ea364bec63e53674
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CompressedAudio/Miku.ogg
+- Assets/CompressedAudio/Carson.ogg
+- Assets/DMCAMusic/Chika_NNTranscription.ogg
+- Assets/DMCAMusic/Roflcopter_NNTranscription.ogg
+- Assets/CompressedAudio/MoveIt.ogg
+- Assets/CompressedAudio/DuckThisOne.ogg
+- Assets/CompressedAudio/Sway.ogg
+- Assets/CompressedAudio/GangTorture.ogg
+- Assets/CompressedAudio/INEEDAMEDICBAG2.ogg
+- Assets/DMCAMusic/Terrestrial_NNTranscription.ogg
+- Assets/CompressedAudio/Flamenco.ogg
+- Assets/DMCAMusic/Distraction_NNTranscription.ogg
+- Assets/CompressedAudio/Orange Justice.ogg
+- Assets/CompressedAudio/GetDown.ogg
+- Assets/DMCAMusic/SuperIdol_NNTranscription.ogg
+- Assets/CompressedAudio/Savage.ogg
+- Assets/CompressedAudio/GalaxyObservatory3.ogg
+- Assets/CompressedAudio/KillMeBaby.ogg
+- Assets/DMCAMusic/StandingHere_NNTranscription.ogg
+- Assets/DMCAMusic/BimBamBom_NNTranscription.ogg
+- Assets/CompressedAudio/starget6.ogg
+- Assets/CompressedAudio/Thriller.ogg
+- Assets/DMCAMusic/HaruhiYoung_NNTranscription.ogg
+- Assets/DMCAMusic/Renegade_NNTranscription.ogg
+- Assets/DMCAMusic/Ifu_NNTranscription.ogg
+- Assets/CompressedAudio/GalaxyObservatory1.ogg
+- Assets/CompressedAudio/StandingHere.ogg
+- Assets/DMCAMusic/INEEDAMEDICBAG2_NNTranscription.ogg
+- Assets/CompressedAudio/Breakneck.ogg
+- Assets/CompressedAudio/Breakin'.ogg
+- Assets/CompressedAudio/Fresh.ogg
+- Assets/CompressedAudio/UGotThat.ogg
+- Assets/CompressedAudio/BimBamBom.ogg
+- Assets/CompressedAudio/DuckThisOneIdle.ogg
+- Assets/DMCAMusic/Frolic_NNTranscription.ogg
+- Assets/DMCAMusic/RumbiOwMyCircuit_NNTranscription.ogg
+- Assets/CompressedAudio/ifucover.ogg
+- Assets/DMCAMusic/MetalJug_NNTranscription.ogg
+- Assets/CompressedAudio/starget7.ogg
+- Assets/CompressedAudio/Real Slim Shady Loop.ogg
+- Assets/DMCAMusic/CrazyFeet_NNTranscription.ogg
+- Assets/CompressedAudio/Infectious.ogg
+- Assets/DMCAMusic/AnkhaZone_NNTranscription.ogg
+- Assets/CompressedAudio/Train.ogg
+- Assets/CompressedAudio/Smoke.ogg
+- Assets/CompressedAudio/Haruhi.ogg
+- Assets/CompressedAudio/CaliforniaGirls.ogg
+- Assets/CompressedAudio/Float.ogg
+- Assets/DMCAMusic/IntensityLoop_NNTranscription.ogg
+- Assets/DMCAMusic/Infectious_NNTranscription.ogg
+- Assets/CompressedAudio/Im A Cat.ogg
+- Assets/DMCAMusic/Bird_NNTranscription.ogg
+- Assets/CompressedAudio/Im a Mystery.ogg
+- Assets/DMCAMusic/Carson_NNTranscription.ogg
+- Assets/CompressedAudio/HydraulicSong.ogg
+- Assets/CompressedAudio/CrazyFeet.ogg
+- Assets/DMCAMusic/Tidy_NNTranscription.ogg
+- Assets/DMCAMusic/ElectroSwing_NNTranscription.ogg
+- Assets/DMCAMusic/Mario here we go_NNTranscription.ogg
+- Assets/CompressedAudio/ItsDynamite.ogg
+- Assets/CompressedAudio/DesertRivers.ogg
+- Assets/CompressedAudio/Specialist.ogg
+- Assets/CompressedAudio/starget3.ogg
+- Assets/CompressedAudio/PopLock.ogg
+- Assets/DMCAMusic/SeeTinh_NNTranscription.ogg
+- Assets/DMCAMusic/Crackdown_NNTranscription.ogg
+- Assets/DMCAMusic/Sway_NNTranscription.ogg
+- Assets/CompressedAudio/Smoke-old1.ogg
+- Assets/DMCAMusic/TakeTheL_NNTranscription.ogg
+- Assets/CompressedAudio/Rollie.ogg
+- Assets/DMCAMusic/Terrestrial Start_NNTranscription.ogg
+- Assets/CompressedAudio/BunnyHop.ogg
+- Assets/CompressedAudio/IntensityLoop.ogg
+- Assets/DMCAMusic/DesertRivers_NNTranscription.ogg
+- Assets/DMCAMusic/StarGet2_NNTranscription.ogg
+- Assets/CompressedAudio/Crabby.ogg
+- Assets/DMCAMusic/Rollie_NNTranscription.ogg
+- Assets/DMCAMusic/Thanos_NNTranscription.ogg
+- Assets/CompressedAudio/VirtualInsanityStart.ogg
+- Assets/DMCAMusic/MoveIt_NNTranscription.ogg
+- Assets/CompressedAudio/MikuJug.ogg
+- Assets/DMCAMusic/Real Slim Shady_NNTranscription.ogg
+- Assets/DMCAMusic/Floss_NNTranscription.ogg
+- Assets/CompressedAudio/InfinidabIntro.ogg
+- Assets/DMCAMusic/PPmusic_NNTranscription.ogg
+- Assets/DMCAMusic/Breakneck_NNTranscription.ogg
+- Assets/CompressedAudio/Markiplier.ogg
+- Assets/CompressedAudio/Trainloop.ogg
+- Assets/CompressedAudio/Phone It In.ogg
+- Assets/DMCAMusic/HydraulicSong_NNTranscription.ogg
+- Assets/DMCAMusic/VirtualInsanityLoop_NNTranscription.ogg
+- Assets/CompressedAudio/FullTilt2.ogg
+- Assets/CompressedAudio/Springy.ogg
+- Assets/DMCAMusic/Crabby_NNTranscription.ogg
+- Assets/DMCAMusic/Orange Justice_NNTranscription.ogg
+- Assets/DMCAMusic/NinjaStyle_NNTranscription.ogg
+- Assets/CompressedAudio/HaruhiYoung.ogg
+- Assets/CompressedAudio/Terrestrial.ogg
+- Assets/DMCAMusic/SquatKick_NNTranscription.ogg
+- Assets/CompressedAudio/Horny.ogg
+- Assets/CompressedAudio/SquatKick.ogg
+- Assets/CompressedAudio/ElectroSwing.ogg
+- Assets/DMCAMusic/Never Gonna Give you Up_NNTranscription.ogg
+- Assets/DMCAMusic/BunnyHop_NNTranscription.ogg
+- Assets/DMCAMusic/Stuck_NNTranscription.ogg
+- Assets/CompressedAudio/Business.ogg
+- Assets/CompressedAudio/DontStart.ogg
+- Assets/DMCAMusic/FancyFeet_NNTranscription.ogg
+- Assets/CompressedAudio/Ifu2.ogg
+- Assets/DMCAMusic/Dance Therapy Intro_NNTranscription.ogg
+- Assets/CompressedAudio/ArkDance.ogg
+- Assets/CompressedAudio/Frolic.ogg
+- Assets/DMCAMusic/Fresh_NNTranscription.ogg
+- Assets/DMCAMusic/ifucover_NNTranscription.ogg
+- Assets/CompressedAudio/HondaStep.ogg
+- Assets/CompressedAudio/FlamencoLoop.ogg
+- Assets/CompressedAudio/GGGG.ogg
+- Assets/CompressedAudio/StarGet2.ogg
+- Assets/CompressedAudio/Chugatone.ogg
+- Assets/DMCAMusic/GinyuForce_NNTranscription.ogg
+- Assets/CompressedAudio/GangnamStyle.ogg
+- Assets/CompressedAudio/TeddyLoid - ME!ME!ME! feat. Daoko.ogg
+- Assets/DMCAMusic/Ifu2_NNTranscription.ogg
+- Assets/CompressedAudio/Crackdown.ogg
+- Assets/DMCAMusic/Savage_NNTranscription.ogg
+- Assets/CompressedAudio/PPmusic.ogg
+- Assets/CompressedAudio/ChugJug.ogg
+- Assets/DMCAMusic/GalaxyObservatory1_NNTranscription.ogg
+- Assets/CompressedAudio/Yakuza.ogg
+- Assets/CompressedAudio/VSWORLD.ogg
+- Assets/DMCAMusic/LetsDanceBoys_NNTranscription.ogg
+- Assets/CompressedAudio/Mario here we go.ogg
+- Assets/DMCAMusic/Phone It In_NNTranscription.ogg
+- Assets/CompressedAudio/BlindingLights.ogg
+- Assets/DMCAMusic/Chugatone_NNTranscription.ogg
+- Assets/DMCAMusic/Overdrive_NNTranscription.ogg
+- Assets/CompressedAudio/LetsDanceBoys.ogg
+- Assets/CompressedAudio/Thicc.ogg
+- Assets/DMCAMusic/starget4_NNTranscription.ogg
+- Assets/CompressedAudio/FancyFeet.ogg
+- Assets/CompressedAudio/Cartwheelin.ogg
+- Assets/CompressedAudio/Scenario.ogg
+- Assets/CompressedAudio/SingleFurry.ogg
+- Assets/CompressedAudio/Droop.ogg
+- Assets/DMCAMusic/DuckThisOne_NNTranscription.ogg
+- Assets/DMCAMusic/Smoke_NNTranscription.ogg
+- Assets/CompressedAudio/TheRobot.ogg
+- Assets/DMCAMusic/Dance Therapy Loop_NNTranscription.ogg
+- Assets/DMCAMusic/starget7_NNTranscription.ogg
+- Assets/CompressedAudio/Summertime.ogg
+- Assets/CompressedAudio/Dance Therapy Intro.ogg
+- Assets/DMCAMusic/Hype_NNTranscription.ogg
+- Assets/DMCAMusic/Markiplier_NNTranscription.ogg
+- Assets/DMCAMusic/Butt_NNTranscription.ogg
+- Assets/CompressedAudio/Macarena.ogg
+- Assets/CompressedAudio/Penguin.ogg
+- Assets/DMCAMusic/IntesityIntro_NNTranscription.ogg
+- Assets/CompressedAudio/SeeTinh.ogg
+- Assets/DMCAMusic/UGotThat_NNTranscription.ogg
+- Assets/CompressedAudio/Thanos.ogg
+- Assets/DMCAMusic/Fortnite default dance sound_NNTranscription.ogg
+- Assets/CompressedAudio/Wess.ogg
+- Assets/DMCAMusic/GetDown_NNTranscription.ogg
+- Assets/CompressedAudio/Security.ogg
+- Assets/DMCAMusic/Extraterestrial_NNTranscription.ogg
+- Assets/CompressedAudio/Dabstand.ogg
+- Assets/CompressedAudio/Stuck.ogg
+- Assets/DMCAMusic/Breakin'_NNTranscription.ogg
+- Assets/DMCAMusic/Trainloop_NNTranscription.ogg
+- Assets/DMCAMusic/Float_NNTranscription.ogg
+- Assets/CompressedAudio/ImDiamond.ogg
+- Assets/CompressedAudio/FullTilt.ogg
+- Assets/CompressedAudio/Crossbounce.ogg
+- Assets/CompressedAudio/hydraulicpressing.ogg
+- Assets/DMCAMusic/MyWorld_NNTranscription.ogg
+- Assets/DMCAMusic/Toosie_NNTranscription.ogg
+- Assets/DMCAMusic/Horny_NNTranscription.ogg
+- Assets/DMCAMusic/hydraulicpressingnoexplosion_NNTranscription.ogg
+- Assets/CompressedAudio/Extraterestrial.ogg
+- Assets/CompressedAudio/ByTheFire.ogg
+- Assets/CompressedAudio/Floss.ogg
+- Assets/DMCAMusic/Dougie_NNTranscription.ogg
+- Assets/CompressedAudio/BlindingLightsIntro.ogg
+- Assets/DMCAMusic/Cirno_NNTranscription.ogg
+- Assets/DMCAMusic/ItsDynamite_NNTranscription.ogg
+- Assets/CompressedAudio/MakeItRainIntro.ogg
+- Assets/DMCAMusic/Penguin_NNTranscription.ogg
+- Assets/CompressedAudio/Chika.ogg
+- Assets/CompressedAudio/GalaxyObservatory2.ogg
+- Assets/CompressedAudio/Never Gonna Give you Up.ogg
+- Assets/CompressedAudio/RumbiOwMyCircuit.ogg
+- Assets/CompressedAudio/NinjaStyle.ogg
+- Assets/DMCAMusic/ByTheFire_NNTranscription.ogg
+- Assets/DMCAMusic/BlindingLightsIntro_NNTranscription.ogg
+- Assets/CompressedAudio/VirtualInsanityLoop.ogg
+- Assets/CompressedAudio/RumbiOw.ogg
+- Assets/DMCAMusic/starget5_NNTranscription.ogg
+- Assets/CompressedAudio/Poyo.ogg
+- Assets/DMCAMusic/Wess_NNTranscription.ogg
+- Assets/CompressedAudio/Terrestrial Start.ogg
+- Assets/DMCAMusic/DevilSpawn_NNTranscription.ogg
+- Assets/DMCAMusic/KillMeBaby_NNTranscription.ogg
+- Assets/DMCAMusic/Goopie_NNTranscription.ogg
+- Assets/CompressedAudio/Roflcopter.ogg
+- Assets/CompressedAudio/SpringLoaded.ogg
+- Assets/DMCAMusic/VSWORLD_NNTranscription.ogg
+- Assets/DMCAMusic/GalaxyObservatory2_NNTranscription.ogg
+- Assets/CompressedAudio/Tidy.ogg
+- Assets/DMCAMusic/BestMates_NNTranscription.ogg
+- Assets/CompressedAudio/Dance Therapy Loop.ogg
+- Assets/DMCAMusic/Real Slim Shady Loop_NNTranscription.ogg
+- Assets/DMCAMusic/Im a Mystery_NNTranscription.ogg
+- Assets/DMCAMusic/hydraulicpressing_NNTranscription.ogg
+- Assets/DMCAMusic/GalaxyObservatory3_NNTranscription.ogg
+- Assets/DMCAMusic/Im A Cat_NNTranscription.ogg
+- Assets/DMCAMusic/Droop_NNTranscription.ogg
+- Assets/DMCAMusic/Miku_NNTranscription.ogg
+- Assets/DMCAMusic/Thicc_NNTranscription.ogg
+- Assets/CompressedAudio/Steady.ogg
+- Assets/DMCAMusic/Dabstand_NNTranscription.ogg
+- Assets/DMCAMusic/Specialist_NNTranscription.ogg
+- Assets/DMCAMusic/TheRobot_NNTranscription.ogg
+- Assets/CompressedAudio/MakeItRainLoop.ogg
+- Assets/DMCAMusic/Macarena_NNTranscription.ogg
+- Assets/CompressedAudio/Im a Mystery Loop.ogg
+- Assets/CompressedAudio/Shufflin.ogg
+- Assets/DMCAMusic/FullTilt2_NNTranscription.ogg
+- Assets/DMCAMusic/Shufflin_NNTranscription.ogg
+- Assets/CompressedAudio/Hype.ogg
+- Assets/DMCAMusic/FullTilt_NNTranscription.ogg
+- Assets/CompressedAudio/MyWorld.ogg
+- Assets/DMCAMusic/Thriller_NNTranscription.ogg
+- Assets/CompressedAudio/Renegade.ogg
+- Assets/DMCAMusic/Scenario_NNTranscription.ogg
+- Assets/DMCAMusic/Business_NNTranscription.ogg
+- Assets/CompressedAudio/BestMates.ogg
+- Assets/CompressedAudio/starget5.ogg
+- Assets/DMCAMusic/Cartwheelin_NNTranscription.ogg
+- Assets/DMCAMusic/starget6_NNTranscription.ogg
+- Assets/DMCAMusic/Summertime_NNTranscription.ogg
+- Assets/DMCAMusic/starget3_NNTranscription.ogg
+- Assets/DMCAMusic/DuckThisOneIdle_NNTranscription.ogg
+- Assets/CompressedAudio/TakeOnMe.ogg
+- Assets/CompressedAudio/Dougie.ogg
+- Assets/CompressedAudio/TakeTheL.ogg
+- Assets/DMCAMusic/MakeItRainLoop_NNTranscription.ogg
+- Assets/DMCAMusic/Steady_NNTranscription.ogg
+- Assets/DMCAMusic/GangnamStyle_NNTranscription.ogg
+- Assets/CompressedAudio/Bird.ogg
+- Assets/CompressedAudio/BlindingLightsLoop.ogg
+- Assets/DMCAMusic/PopLock_NNTranscription.ogg
+- Assets/DMCAMusic/ImDiamond_NNTranscription.ogg
+- Assets/CompressedAudio/starget4.ogg
+- Assets/CompressedAudio/Griddy.ogg
+- Assets/CompressedAudio/Toosie.ogg
+- Assets/DMCAMusic/ChugJug_NNTranscription.ogg
+- Assets/DMCAMusic/Yakuza_NNTranscription.ogg
+- Assets/DMCAMusic/Griddy_NNTranscription.ogg
+- Assets/DMCAMusic/InfinidabLoop_NNTranscription.ogg
+- Assets/CompressedAudio/AnkhaZone.ogg
+- Assets/CompressedAudio/DevilSpawn.ogg
+- Assets/DMCAMusic/Springy_NNTranscription.ogg
+- Assets/DMCAMusic/VirtualInsanityStart_NNTranscription.ogg
+- Assets/DMCAMusic/ArkDance_NNTranscription.ogg
+- Assets/DMCAMusic/CaliforniaGirls_NNTranscription.ogg
+- Assets/CompressedAudio/INEEDAMEDICBAG1.ogg
+- Assets/CompressedAudio/Fortnite default dance sound.ogg
+- Assets/DMCAMusic/Im a Mystery Loop_NNTranscription.ogg
+- Assets/DMCAMusic/INEEDAMEDICBAG1_NNTranscription.ogg
+- Assets/DMCAMusic/TakeOnMe_NNTranscription.ogg
+- Assets/DMCAMusic/SpringLoaded_NNTranscription.ogg
+- Assets/DMCAMusic/GGGG_NNTranscription.ogg
+- Assets/CompressedAudio/Distraction.ogg
+- Assets/CompressedAudio/SuperIdol.ogg
+- Assets/DMCAMusic/TeddyLoid - ME!ME!ME! feat. Daoko_NNTranscription.ogg
+- Assets/CompressedAudio/Goopie.ogg
+- Assets/CompressedAudio/Ifu.ogg
+- Assets/DMCAMusic/Crossbounce_NNTranscription.ogg
+- Assets/DMCAMusic/Haruhi_NNTranscription.ogg
+- Assets/CompressedAudio/hydraulicpressingnoexplosion.ogg
+- Assets/DMCAMusic/MikuJug_NNTranscription.ogg
+- Assets/CompressedAudio/MetalJug.ogg
+- Assets/CompressedAudio/GinyuForce.ogg
+- Assets/DMCAMusic/Poyo_NNTranscription.ogg
+- Assets/DMCAMusic/HondaStep_NNTranscription.ogg
+- Assets/CompressedAudio/Overdrive.ogg
+- Assets/CompressedAudio/Butt.ogg
+- Assets/DMCAMusic/FlamencoLoop_NNTranscription.ogg
+- Assets/DMCAMusic/Old SChool_NNTranscription.ogg
+- Assets/DMCAMusic/Security_NNTranscription.ogg
+- Assets/CompressedAudio/Old SChool.ogg
+- Assets/CompressedAudio/Cirno.ogg
+- Assets/DMCAMusic/BlindingLights_NNTranscription.ogg
+- Assets/CompressedAudio/IntesityIntro.ogg
+- Assets/DMCAMusic/BlindingLightsLoop_NNTranscription.ogg
+- Assets/CompressedAudio/InfinidabLoop.ogg
+- Assets/DMCAMusic/GangTorture_NNTranscription.ogg
+- Assets/CompressedAudio/Real Slim Shady.ogg
+- Assets/DMCAMusic/DontStart_NNTranscription.ogg
+Dependencies: []

@@ -339,8 +339,7 @@ Thundersomebitches/Assets/BadAssEmotes.dll
 Thundersomebitches/Assets/BadAssEmotes.dll.meta
 Thundersomebitches/Assets/BadAssEmotes.dll.meta
 Thundersomebitches/Library/ArtifactDB
-BadAssEmotesUnity/Library/PackageCache/
-
+BadAssEmotesUnity/Library
 
 
 ExamplePlugin/BadAssEmotes.bnk
@@ -350,3 +349,8 @@ ExamplePlugin/ifubundle
 ExamplePlugin/ifu.wav
 ExamplePlugin/badassemotes
 *.dylib
+BadAssEmotesUnity/Assets/BadAssEmotes/ChugJug.anim
+BadAssEmotesUnity/Assets/BadAssEmotes/DesertRivers.anim
+BadAssEmotesUnity/Assets/BadAssEmotes/GGGG3.anim
+BadAssEmotesUnity/Assets/BadAssEmotes/LetsDanceBoys.anim
+BadAssEmotesUnity/AssetBundles/StandaloneWindows/baddassaudio

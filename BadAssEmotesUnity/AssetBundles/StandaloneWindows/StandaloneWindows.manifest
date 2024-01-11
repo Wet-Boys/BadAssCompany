@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3189290408
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: badassemotes
+      Dependencies:
+        Dependency_0: ifubundle
+    Info_1:
+      Name: ifubundle
+      Dependencies: {}
+    Info_2:
+      Name: baddassaudio
+      Dependencies: {}
+    Info_3:
+      Name: moisture_animationreplacements
+      Dependencies: {}
+    Info_4:
+      Name: customemotespackage
+      Dependencies: {}
+    Info_5:
+      Name: scavbody
+      Dependencies:
+        Dependency_0: moisture_animationreplacements
+        Dependency_1: customemotespackage

@@ -1,0 +1,248 @@
+ManifestFileVersion: 0
+CRC: 4272216241
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 763af7c3b5ebc71d9bc636beca107735
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1a899ce3ecfc4867a80ce4eda2aaec1f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 763af7c3b5ebc71d9bc636beca107735
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 40c9a327a0b28244ea89603f7028a920, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c4bf52dff9761aa4ba376ca5ee091407, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 150aed21b87a0ec4583f996364f2d014, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 788777f663490a248a9ab23fe0899bbf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f847caa0bdea81b4aa75c794a8090874, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.BoolScalableSettingValue
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.IntScalableSettingValue
+Assets:
+- Assets/BadAssEmotes/BearHug.anim
+- Assets/BadAssEmotes/Goopie.anim
+- Assets/BadAssEmotes/Renegade.anim
+- Assets/BadAssEmotes/DanceMoves.anim
+- Assets/BadAssEmotes/Im a Mystery.anim
+- Assets/BadAssEmotes/GetDown.anim
+- Assets/BadAssEmotes/DontStart.anim
+- Assets/BadAssEmotes/PPmusic.anim
+- Assets/BadAssEmotes/PoseJeice.anim
+- Assets/BadAssEmotes/FlamencoLoop.anim
+- Assets/Prefabs/explosion press.prefab
+- Assets/BadAssEmotes/Toosie.anim
+- Assets/BadAssEmotes/MakeItRainLoop.anim
+- Assets/BadAssEmotes/GangnamStyle.anim
+- Assets/BadAssEmotes/Overdrive.anim
+- Assets/BadAssEmotes/MoveIt.anim
+- Assets/BadAssEmotes/Macarena.anim
+- Assets/BadAssEmotes/Trainloop.anim
+- Assets/Prefabs/Starfield.prefab
+- Assets/Prefabs/neversee.prefab
+- Assets/BadAssEmotes/Im a Mystery Loop.anim
+- Assets/BadAssEmotes/Smoke.anim
+- Assets/BadAssEmotes/JackOPose.anim
+- Assets/BadAssEmotes/Savage.anim
+- Assets/BadAssEmotes/DuckThisOneJoin.anim
+- Assets/BadAssEmotes/Fresh.anim
+- Assets/BadAssEmotes/PoseGinyu.anim
+- Assets/Prefabs/Amogus.prefab
+- Assets/BadAssEmotes/Hi.anim
+- Assets/BadAssEmotes/VSWORLD.anim
+- Assets/BadAssEmotes/Droop.anim
+- Assets/BadAssEmotes/ItsDynamite.anim
+- Assets/Prefabs/Money.prefab
+- Assets/Prefabs/Im a Mystery.prefab
+- Assets/BadAssEmotes/ByTheFireLead.anim
+- Assets/BadAssEmotes/Distraction.anim
+- Assets/BadAssEmotes/Haruhi.anim
+- Assets/BadAssEmotes/ByTheFirePartner.anim
+- Assets/BadAssEmotes/Thicc.anim
+- Assets/Prefabs/HondaStuff.prefab
+- Assets/BadAssEmotes/UGotThat.anim
+- Assets/BadAssEmotes/BlindingLights.anim
+- Assets/BadAssEmotes/VSWORLDLEFT.anim
+- Assets/BadAssEmotes/Spiderman.anim
+- Assets/BadAssEmotes/BlindingLightsIntro.anim
+- Assets/BadAssEmotes/SwayLead.anim
+- Assets/BadAssEmotes/Train.anim
+- Assets/BadAssEmotes/PoseGuldo.anim
+- Assets/BadAssEmotes/Breakneck.anim
+- Assets/BadAssEmotes/LetsDanceBoys.anim
+- Assets/Prefabs/FloatLight.prefab
+- Assets/BadAssEmotes/DeepDab.anim
+- Assets/BadAssEmotes/Poyo.anim
+- Assets/BadAssEmotes/SingleFurry.anim
+- Assets/BadAssEmotes/CrazyFeet.anim
+- Assets/BadAssEmotes/FamilyGuyDeath.anim
+- Assets/BadAssEmotes/Griddy.anim
+- Assets/BadAssEmotes/Security.anim
+- Assets/BadAssEmotes/Cartwheelin.anim
+- Assets/BadAssEmotes/Sad.anim
+- Assets/BadAssEmotes/PawsAndClaws.anim
+- Assets/BadAssEmotes/ArkDance.anim
+- Assets/Prefabs/BluntAnimator.prefab
+- Assets/BadAssEmotes/GGGG2.anim
+- Assets/BadAssEmotes/NeverGonna.anim
+- Assets/BadAssEmotes/DevilSpawn.anim
+- Assets/BadAssEmotes/Roflcopter.anim
+- Assets/BadAssEmotes/SeeTinh.anim
+- Assets/BadAssEmotes/PoseBurter.anim
+- Assets/BadAssEmotes/StoodHere.anim
+- Assets/BadAssEmotes/Horny.anim
+- Assets/BadAssEmotes/Thanos.anim
+- Assets/BadAssEmotes/Panda.anim
+- Assets/BadAssEmotes/InfinidabIntro.anim
+- Assets/BadAssEmotes/Butt.anim
+- Assets/BadAssEmotes/SquatKickIntro.anim
+- Assets/BadAssEmotes/Real Slim Shady.anim
+- Assets/BadAssEmotes/PoseRecoome.anim
+- Assets/BadAssEmotes/ChugJug.anim
+- Assets/BadAssEmotes/Infectious.anim
+- Assets/BadAssEmotes/Steady.anim
+- Assets/BadAssEmotes/SwayPartner.anim
+- Assets/BadAssEmotes/Jpop1.anim
+- Assets/BadAssEmotes/DanceTherapyIntro.anim
+- Assets/BadAssEmotes/Crackdown.anim
+- Assets/BadAssEmotes/Real Slim Shady Loop.anim
+- Assets/BadAssEmotes/Shufflin.anim
+- Assets/BadAssEmotes/BimBamBom.anim
+- Assets/BadAssEmotes/IntensityIntro.anim
+- Assets/Prefabs/CSSDesker.prefab
+- Assets/BadAssEmotes/Floss.anim
+- Assets/BadAssEmotes/FloorSamus.anim
+- Assets/BadAssEmotes/Crabby.anim
+- Assets/BadAssEmotes/GalaxyObservatory.anim
+- Assets/BadAssEmotes/MakeItRainIntro.anim
+- Assets/BadAssEmotes/Summertime.anim
+- Assets/BadAssEmotes/Tidy.anim
+- Assets/BadAssEmotes/MyWorldJoin.anim
+- Assets/BadAssEmotes/Frolic.anim
+- Assets/BadAssEmotes/HondaStep.anim
+- Assets/BadAssEmotes/GGGG3.anim
+- Assets/BadAssEmotes/ElectroSwing.anim
+- Assets/Prefabs/train.prefab
+- Assets/BadAssEmotes/Hype.anim
+- Assets/BadAssEmotes/Scenario.anim
+- Assets/BadAssEmotes/Stuck.anim
+- Assets/BadAssEmotes/Specialist.anim
+- Assets/BadAssEmotes/BearHugJoin.anim
+- Assets/BadAssEmotes/Chika.anim
+- Assets/BadAssEmotes/TrainPassenger.anim
+- Assets/BadAssEmotes/StandingHere.anim
+- Assets/Prefabs/DesertLight.prefab
+- Assets/BadAssEmotes/Dabstand.anim
+- Assets/BadAssEmotes/InfinidabLoop.anim
+- Assets/BadAssEmotes/DuckThisOneIdle.anim
+- Assets/BadAssEmotes/DuckThisOne.anim
+- Assets/BadAssEmotes/SpringLoaded.anim
+- Assets/Prefabs/Summermogus.prefab
+- Assets/BadAssEmotes/VirtualInsanityLoop.anim
+- Assets/BadAssEmotes/Miku.anim
+- Assets/BadAssEmotes/Breakin.anim
+- Assets/BadAssEmotes/GangTorture.anim
+- Assets/BadAssEmotes/DEDEDE.anim
+- Assets/BadAssEmotes/CaliforniaGirls.anim
+- Assets/BadAssEmotes/FlamencoIntro.anim
+- Assets/BadAssEmotes/SuperIdol.anim
+- Assets/BadAssEmotes/BestMates.anim
+- Assets/BadAssEmotes/Yamcha.anim
+- Assets/BadAssEmotes/PPmusicFollow.anim
+- Assets/BadAssEmotes/Yakuza.anim
+- Assets/BadAssEmotes/Wess.anim
+- Assets/Prefabs/BimBamBom.prefab
+- Assets/BadAssEmotes/Springy.anim
+- Assets/BadAssEmotes/FancyFeet.anim
+- Assets/BadAssEmotes/PopLock.anim
+- Assets/BadAssEmotes/Bird.anim
+- Assets/BadAssEmotes/PhoneItIn.anim
+- Assets/BadAssEmotes/GGGG.anim
+- Assets/BadAssEmotes/Extraterrestial.anim
+- Assets/BadAssEmotes/IntensityLoop.anim
+- Assets/BadAssEmotes/Dougie.anim
+- Assets/BadAssEmotes/Float.anim
+- Assets/BadAssEmotes/SquatKickLoop.anim
+- Assets/BadAssEmotes/ImDiamond.anim
+- Assets/BadAssEmotes/OrangeJustice.anim
+- Assets/BadAssEmotes/TheRobot.anim
+- Assets/BadAssEmotes/NinjaStyle.anim
+- Assets/BadAssEmotes/MyWorld.anim
+- Assets/BadAssEmotes/KillMeBaby.anim
+- Assets/BadAssEmotes/VirtualInsanityIntro.anim
+- Assets/BadAssEmotes/Cirno.anim
+- Assets/Prefabs/passenger.prefab
+- Assets/BadAssEmotes/Crossbounce.anim
+- Assets/BadAssEmotes/TakeTheL.anim
+- Assets/BadAssEmotes/AnkhaZone.anim
+- Assets/BadAssEmotes/FullTilt.anim
+- Assets/BadAssEmotes/OfficerEarl.anim
+- Assets/BadAssEmotes/Carson.anim
+- Assets/BadAssEmotes/Markiplier.anim
+- Assets/BadAssEmotes/Thriller.anim
+- Assets/BadAssEmotes/DanceTherapyLoop.anim
+- Assets/Prefabs/ifustagebase.prefab
+- Assets/BadAssEmotes/Rollie.anim
+- Assets/BadAssEmotes/StarGet.anim
+- Assets/BadAssEmotes/INEEDAMEDICBAG.anim
+- Assets/Models/desker.prefab
+- Assets/BadAssEmotes/DesertRivers.anim
+- Assets/BadAssEmotes/BunnyHop.anim
+- Assets/BadAssEmotes/Penguin.anim
+- Assets/BadAssEmotes/OldSchool.anim
+Dependencies:
+- C:/Users/Bigma Male/Documents/New BAC/BadAssCompany/BadAssEmotesUnity/AssetBundles/StandaloneWindows/ifubundle

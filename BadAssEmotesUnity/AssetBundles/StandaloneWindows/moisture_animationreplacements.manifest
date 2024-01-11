@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1338304649
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b21f403f54c4834a99c496659a637dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5941c3541d8b403f80e37b0d697371e8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7b21f403f54c4834a99c496659a637dd
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/animationreplacements/Dab.anim
+- Assets/animationreplacements/nobones.anim
+- Assets/animationreplacements/Floss.anim
+Dependencies: []

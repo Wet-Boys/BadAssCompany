@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3726721780
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7cf1b6cdbf51dc4ca69a27e230fca5c0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a86897a40af6e6d0d9ec182311314cc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7cf1b6cdbf51dc4ca69a27e230fca5c0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CustomStuff/scavEmoteSkeleton.prefab
+Dependencies:
+- C:/Users/Bigma Male/Documents/New BAC/BadAssCompany/BadAssEmotesUnity/AssetBundles/StandaloneWindows/customemotespackage
+- C:/Users/Bigma Male/Documents/New BAC/BadAssCompany/BadAssEmotesUnity/AssetBundles/StandaloneWindows/moisture_animationreplacements
