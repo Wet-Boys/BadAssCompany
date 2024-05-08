@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3716000121
+CRC: 1370156964
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 82dac22d912f5474ea364bec63e53674
+    Hash: b88183904613a0529cd7888206a84004
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 82dac22d912f5474ea364bec63e53674
+    Hash: b88183904613a0529cd7888206a84004
 HashAppended: 0
 ClassTypes:
 - Class: 83
@@ -43,6 +43,7 @@ Assets:
 - Assets/DMCAMusic/Ifu_NNTranscription.ogg
 - Assets/CompressedAudio/GalaxyObservatory1.ogg
 - Assets/CompressedAudio/StandingHere.ogg
+- Assets/DMCAMusic/BlindingLightsLoop_NNTranscription.ogg
 - Assets/DMCAMusic/INEEDAMEDICBAG2_NNTranscription.ogg
 - Assets/CompressedAudio/Breakneck.ogg
 - Assets/CompressedAudio/Breakin'.ogg
@@ -147,6 +148,7 @@ Assets:
 - Assets/CompressedAudio/Yakuza.ogg
 - Assets/CompressedAudio/VSWORLD.ogg
 - Assets/DMCAMusic/LetsDanceBoys_NNTranscription.ogg
+- Assets/DMCAMusic/BlindingLightsIntro_NNTranscription.ogg
 - Assets/CompressedAudio/Mario here we go.ogg
 - Assets/DMCAMusic/Phone It In_NNTranscription.ogg
 - Assets/CompressedAudio/BlindingLights.ogg
@@ -209,7 +211,7 @@ Assets:
 - Assets/CompressedAudio/RumbiOwMyCircuit.ogg
 - Assets/CompressedAudio/NinjaStyle.ogg
 - Assets/DMCAMusic/ByTheFire_NNTranscription.ogg
-- Assets/DMCAMusic/BlindingLightsIntro_NNTranscription.ogg
+- Assets/DMCAMusic/BlindingLightsIntro_NNTranscription_old.ogg
 - Assets/CompressedAudio/VirtualInsanityLoop.ogg
 - Assets/CompressedAudio/RumbiOw.ogg
 - Assets/DMCAMusic/starget5_NNTranscription.ogg
@@ -308,9 +310,9 @@ Assets:
 - Assets/DMCAMusic/Security_NNTranscription.ogg
 - Assets/CompressedAudio/Old SChool.ogg
 - Assets/CompressedAudio/Cirno.ogg
-- Assets/DMCAMusic/BlindingLights_NNTranscription.ogg
+- Assets/DMCAMusic/BlindingLights_NNTranscription_old.ogg
 - Assets/CompressedAudio/IntesityIntro.ogg
-- Assets/DMCAMusic/BlindingLightsLoop_NNTranscription.ogg
+- Assets/DMCAMusic/BlindingLightsLoop_NNTranscription_old.ogg
 - Assets/CompressedAudio/InfinidabLoop.ogg
 - Assets/DMCAMusic/GangTorture_NNTranscription.ogg
 - Assets/CompressedAudio/Real Slim Shady.ogg
