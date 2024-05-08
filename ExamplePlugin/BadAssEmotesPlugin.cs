@@ -22,7 +22,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badasscompany";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssCompany";
-        public const string PluginVersion = "1.1.10";
+        public const string PluginVersion = "1.1.11";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
