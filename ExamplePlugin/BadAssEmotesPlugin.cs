@@ -22,7 +22,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badasscompany";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssCompany";
-        public const string PluginVersion = "1.1.11";
+        public const string PluginVersion = "1.2.0";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -269,6 +269,51 @@ namespace ExamplePlugin
             AddAnimation("Real Slim Shady", "Real Slim Shady Loop", "Real Slim Shady", "Real Slim Shady Loop", true, true, true, AnimationClipParams.LockType.headBobbing, "Real Slim Shady", "Real Slim Shady", "Real Slim Shady Loop", true, .7f);
             AddAnimation("Steady", "Steady", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Steady", "Steady", "", false, .7f);
 
+
+            //Update 10
+            AddAnimation("AirShredder", "AirShredder", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("ArmyBunny", "ArmyBunnyLoop", "ArmyBunny", "ArmyBunnyLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("BoneyBounce", "BoneyBounce", "BoneyBounceLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("BoldStance", "BoldStance", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Bombastic", "Bombastic", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("BounceWit'It", "BounceWit'ItPoop", "BounceWit'It", "BounceWit'ItPoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Boy'sALier", "Boy'sALier", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Caffeinated", "CaffeinatedLoop", "Caffeinated", "CaffeinatedLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("CelebrateMe", "CelebrateMe", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("CluckStrut", "CluckStrut", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("CongaFT", "Conga", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Copines", "Copines", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Cupid'sArrow", "Cupid'sArrowLoop", "Cupid'sArrow", "Cupid'sArrowLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("FastFlex", "FastFlexLoop", "FastFlex", "FastFlexLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("FeelTheFlow", "FeelTheFlow", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("GetGone", "GetGone", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("GetLoose", "GetLoose", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Gloss", "Gloss", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("InHaMood", "InHaMoodLoop", "InHaMood", "InHaMoodLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("MakeSomeWaves", "MakeSomeWaves", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("NanaNana", "NanaNana", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("NightOut", "NightOut", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("PointAndStrut", "PointAndStrutLoop", "PointAndStrut", "PointAndStrutLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("PrimoMoves", "PrimoMoves", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("RapMonster", "RapMonsterLoop", "RapMonster", "RapMonsterLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("RunItDown", "RunItDown", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Rushin'Around", "Rushin'Around", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("ShowYa", "ShowYaLoop", "ShowYa", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Ska-stra-terrestrial", "Ska-stra-terrestrial", "Ska-stra-terrestrialLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("SugarRush", "SugarRush", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Switchstep", "Switchstep", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("YouShouldSeeMeInACrown", "YouShouldSeeMeInACrowLoop", "YouShouldSeeMeInACrown", "YouShouldSeeMeInACrownLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Zany", "Zany", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+
+
+            //Update 11
+            AddAnimation("CheerUp", "CheerUp", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("CrissCross", "CrissCross", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("NuthinButAGThang", "NuthinButAGThangLoop", "NuthinButAGThang", "NuthinButAGThangLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("JabbaSwitchway", "SwitchAway", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("ByeByeBye", "ByeByeByeLoop", "ByeByeBye", "ByeByeByeLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("GoMufasa", "GoMufasa", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation("Snoop'sWalk", "Snoop'sWalkLoop", "Snoop'sWalk", "Snoop'sWalkLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
 
             //TODO
             //GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
@@ -558,6 +603,7 @@ namespace ExamplePlugin
         int stand = -1;
         List<BoneMapper> punchingMappers = new List<BoneMapper>();
         int prop1 = -1;
+        int prop2 = -1;
         private void CustomEmotesAPI_animChanged(string newAnimation, BoneMapper mapper)
         {
             if (!newAnimation.StartsWith(PluginGUID))
@@ -769,6 +815,10 @@ namespace ExamplePlugin
             {
                 mapper.SetAutoWalk(.5f, false);
             }
+            if (newAnimation == "CluckStrut")
+            {
+                mapper.SetAutoWalk(.5f, false);
+            }
             if (newAnimation == "Duck This One")
             {
                 //GameObject g = new GameObject();
@@ -902,6 +952,23 @@ namespace ExamplePlugin
             //    mapper.props[prop1].transform.localPosition = Vector3.zero;
             //    mapper.props[prop1].transform.localScale = Vector3.one;
             //}
+            if (newAnimation == "CheerUp")
+            {
+                var newPrefab = GameObject.Instantiate(Assets.Load<GameObject>("@BadAssEmotes_badassemotes:Assets/badassemotes/PomPom.prefab"));
+                foreach (Renderer componentsInChild in newPrefab.GetComponentsInChildren<Renderer>())
+                    componentsInChild.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+                prop1 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(newPrefab));
+                mapper.props[prop1].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.LeftHand));
+                mapper.props[prop1].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop1].transform.localPosition = Vector3.zero;
+                prop2 = mapper.props.Count;
+                mapper.props.Add(GameObject.Instantiate(newPrefab));
+                mapper.props[prop2].transform.SetParent(mapper.gameObject.GetComponent<Animator>().GetBoneTransform(HumanBodyBones.RightHand));
+                mapper.props[prop2].transform.localEulerAngles = Vector3.zero;
+                mapper.props[prop2].transform.localPosition = Vector3.zero;
+                mapper.ScaleProps();
+            }
         }
         internal void AddAnimation(string AnimClip, AudioClip[] startClips, AudioClip[] loopClips, bool looping, bool dimAudio, bool sync, AnimationClipParams.LockType lockType, string customName, AudioClip[] dmcaStartClips, AudioClip[] dmcaLoopClips, bool DMCA, float audio)
         {

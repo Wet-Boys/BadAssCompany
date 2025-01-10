@@ -1,8 +1,8 @@
-﻿using BepInEx.Configuration;
+﻿using BadAssCompany;
+using BepInEx.Bootstrap;
+using BepInEx.Configuration;
 using EmotesAPI;
 using ExamplePlugin;
-using LethalConfig;
-using LethalConfig.ConfigItems;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -36,18 +36,10 @@ namespace ExamplePlugin
             ImaMysteryProp = BadAssEmotesPlugin.instance.Config.Bind<bool>("Settings", "Im a Mystery prop", true, "Allows Im a Mystery to have a prop");
 
 
-
-            LethalConfigManager.SetModDescription("API for importing animations to Lethal Company");
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(FloatLightProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(moneyProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(chikaProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(desertlightProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(BimBamBomProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(SummermogusProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(Amogus, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(BluntAnimatorProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(neverseeProp, false));
-            LethalConfigManager.AddConfigItem(new BoolCheckBoxConfigItem(ImaMysteryProp, false));
+            if (Chainloader.PluginInfos.ContainsKey("ainavt.lc.lethalconfig"))
+            {
+                LethalConfigSupport.LethalConfig();
+            }
         }
     }
 }

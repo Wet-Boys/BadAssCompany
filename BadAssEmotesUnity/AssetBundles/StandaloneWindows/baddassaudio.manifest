@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1370156964
+CRC: 3922324138
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b88183904613a0529cd7888206a84004
+    Hash: 89d843a60781c9bd45074a829ec4282e
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9a2ca7bdbd1871f7131daf57de908e0c
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: b88183904613a0529cd7888206a84004
+    Hash: 89d843a60781c9bd45074a829ec4282e
 HashAppended: 0
 ClassTypes:
 - Class: 83
@@ -47,6 +47,7 @@ Assets:
 - Assets/DMCAMusic/INEEDAMEDICBAG2_NNTranscription.ogg
 - Assets/CompressedAudio/Breakneck.ogg
 - Assets/CompressedAudio/Breakin'.ogg
+- Assets/DMCAMusic/Popular_Vibe_NNTranscription.ogg
 - Assets/CompressedAudio/Fresh.ogg
 - Assets/CompressedAudio/UGotThat.ogg
 - Assets/CompressedAudio/BimBamBom.ogg

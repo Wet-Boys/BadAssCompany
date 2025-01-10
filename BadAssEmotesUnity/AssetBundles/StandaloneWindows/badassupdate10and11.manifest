@@ -1,0 +1,152 @@
+ManifestFileVersion: 0
+CRC: 4136251379
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c8ae76c172b78a2212156a876121101
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 94a12e4aac756a32c2ebade52d6e1c4b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8c8ae76c172b78a2212156a876121101
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BadAssEmotes/voronoi_noise.png
+- Assets/BadAssEmotes/CaffeinatedLoop.anim
+- Assets/CompressedAudio/Byebyebye.ogg
+- Assets/CompressedAudio/RapMonster.ogg
+- Assets/BadAssEmotes/Gloss.anim
+- Assets/CompressedAudio/InHaMoodLoop.ogg
+- Assets/BadAssEmotes/FastFlexLoop.anim
+- Assets/BadAssEmotes/MakeSomeWaves.anim
+- Assets/CompressedAudio/Boy'sALier.ogg
+- Assets/BadAssEmotes/NanaNana.anim
+- Assets/BadAssEmotes/InHaMoodLoop.anim
+- Assets/CompressedAudio/BoneyBounce.ogg
+- Assets/CompressedAudio/GetLoose.ogg
+- Assets/CompressedAudio/Conga.ogg
+- Assets/CompressedAudio/YouShouldSeeMeInACrown.ogg
+- Assets/CompressedAudio/Caffeinated.ogg
+- Assets/BadAssEmotes/RapMonster.anim
+- Assets/BadAssEmotes/CheerUp.anim
+- Assets/CompressedAudio/Cheerup.ogg
+- Assets/CompressedAudio/ArmyBunny.ogg
+- Assets/CompressedAudio/Copines.ogg
+- Assets/BadAssEmotes/BoneyBounce.anim
+- Assets/CompressedAudio/Ska-stra-terrestrial.ogg
+- Assets/BadAssEmotes/PomPom.prefab
+- Assets/CompressedAudio/SwitchAway.ogg
+- Assets/CompressedAudio/NuthinButAGThangLoop.ogg
+- Assets/CompressedAudio/Gloss.ogg
+- Assets/BadAssEmotes/Snoop'sWalk.anim
+- Assets/CompressedAudio/CluckStrut.ogg
+- Assets/BadAssEmotes/InHaMood.anim
+- Assets/BadAssEmotes/Cupid'sArrowLoop.anim
+- Assets/BadAssEmotes/CelebrateMe.anim
+- Assets/BadAssEmotes/SugarRush.anim
+- Assets/BadAssEmotes/PrimoMoves.anim
+- Assets/BadAssEmotes/CongaFT.anim
+- Assets/BadAssEmotes/NuthinButAGThangLoop.anim
+- Assets/CompressedAudio/YouShouldSeeMeInACrownLoop.ogg
+- Assets/BadAssEmotes/BounceWit'ItPoop.anim
+- Assets/CompressedAudio/ShowYa.ogg
+- Assets/BadAssEmotes/BoneyBounceLoop.anim
+- Assets/BadAssEmotes/Copines.anim
+- Assets/BadAssEmotes/GetGone.anim
+- Assets/BadAssEmotes/Snoop'sWalkLoop.anim
+- Assets/CompressedAudio/Zany.ogg
+- Assets/CompressedAudio/PointAndStrutLoop.ogg
+- Assets/CompressedAudio/BoneyBounceLoop.ogg
+- Assets/BadAssEmotes/YouShouldSeeMeInACrowLoop.anim
+- Assets/BadAssEmotes/Switchstep.anim
+- Assets/BadAssEmotes/Cupid'sArrow.anim
+- Assets/CompressedAudio/CelebrateMe.ogg
+- Assets/BadAssEmotes/CluckStrut.anim
+- Assets/CompressedAudio/Cupid'sArrowLoop.ogg
+- Assets/CompressedAudio/FastFlexLoop.ogg
+- Assets/BadAssEmotes/BounceWit'It.anim
+- Assets/CompressedAudio/CaffeinatedLoop.ogg
+- Assets/CompressedAudio/Rushin'Around.ogg
+- Assets/BadAssEmotes/RunItDown.anim
+- Assets/BadAssEmotes/NightOut.anim
+- Assets/CompressedAudio/NanaNana.ogg
+- Assets/BadAssEmotes/Ska-stra-terrestrial.anim
+- Assets/CompressedAudio/Ska-stra-terrestrialLoop.ogg
+- Assets/BadAssEmotes/Zany.anim
+- Assets/BadAssEmotes/Caffeinated.anim
+- Assets/BadAssEmotes/Boy'sALier.anim
+- Assets/CompressedAudio/AirShredder.ogg
+- Assets/BadAssEmotes/KneeSlapper.anim
+- Assets/BadAssEmotes/Materials 1/voronoi_noise.mat
+- Assets/BadAssEmotes/Rushin'Around.anim
+- Assets/CompressedAudio/CrissCross.ogg
+- Assets/CompressedAudio/BounceWit'It.ogg
+- Assets/CompressedAudio/Snoop'sWalk.ogg
+- Assets/BadAssEmotes/ArmyBunny.anim
+- Assets/BadAssEmotes/PointAndStrutLoop.anim
+- Assets/BadAssEmotes/CrissCross.anim
+- Assets/CompressedAudio/SwitchStep.ogg
+- Assets/CompressedAudio/RunItDown.ogg
+- Assets/CompressedAudio/NuthinButAGThang.ogg
+- Assets/BadAssEmotes/ShowYa.anim
+- Assets/CompressedAudio/PrimoMoves.ogg
+- Assets/BadAssEmotes/YouShouldSeeMeInACrown.anim
+- Assets/BadAssEmotes/FeelTheFlow.anim
+- Assets/CompressedAudio/Cupid'sArrow.ogg
+- Assets/BadAssEmotes/PointAndStrut.anim
+- Assets/CompressedAudio/NightOut.ogg
+- Assets/CompressedAudio/GetGone.ogg
+- Assets/BadAssEmotes/ShowYaLoop.anim
+- Assets/BadAssEmotes/ByeByeByeLoop.anim
+- Assets/BadAssEmotes/BimBamBomTest.anim
+- Assets/BadAssEmotes/ArmyBunnyLoop.anim
+- Assets/CompressedAudio/PointAndStrut.ogg
+- Assets/CompressedAudio/MakeSomeWaves.ogg
+- Assets/BadAssEmotes/Bombastic.anim
+- Assets/BadAssEmotes/FastFlex.anim
+- Assets/CompressedAudio/BoldStance.ogg
+- Assets/BadAssEmotes/PomPom.blend
+- Assets/CompressedAudio/ArmyBunnyLoop.ogg
+- Assets/CompressedAudio/FeelTheFlow.ogg
+- Assets/BadAssEmotes/BoldStance.anim
+- Assets/CompressedAudio/FastFlex.ogg
+- Assets/CompressedAudio/Bombastic.ogg
+- Assets/CompressedAudio/InHaMood.ogg
+- Assets/CompressedAudio/ByeByeByeLoop.ogg
+- Assets/BadAssEmotes/RapMonsterLoop.anim
+- Assets/BadAssEmotes/ByeByeBye.anim
+- Assets/BadAssEmotes/JabbaSwitchway.anim
+- Assets/CompressedAudio/RapMonsterloop.ogg
+- Assets/BadAssEmotes/GoMufasa.anim
+- Assets/BadAssEmotes/JabbaSwitchwaLoopy.anim
+- Assets/BadAssEmotes/AirShredder.anim
+- Assets/CompressedAudio/GoMufasa.ogg
+- Assets/CompressedAudio/SugarRush.ogg
+- Assets/BadAssEmotes/NuthinButAGThang.anim
+- Assets/CompressedAudio/BounceWit'ItPoop.ogg
+- Assets/CompressedAudio/Snoop'sWalkLoop.ogg
+- Assets/BadAssEmotes/GetLoose.anim
+Dependencies: []

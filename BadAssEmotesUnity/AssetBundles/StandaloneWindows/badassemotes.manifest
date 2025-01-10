@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1659265644
+CRC: 1552619095
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ddf5ebc70a4cb173d5606c9caa532fd4
+    Hash: 78b294b0ca649f337181c3cba3465ab1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: be25566624c1539404782dd2de3d4082
+    Hash: 54cc7ae7d9411b05d5005a13c1563c93
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: ddf5ebc70a4cb173d5606c9caa532fd4
+    Hash: 78b294b0ca649f337181c3cba3465ab1
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -118,12 +118,12 @@ Assets:
 - Assets/BadAssEmotes/BlindingLights.anim
 - Assets/BadAssEmotes/VSWORLDLEFT.anim
 - Assets/BadAssEmotes/Spiderman.anim
+- Assets/BadAssEmotes/Popular Vibe.anim
 - Assets/BadAssEmotes/BlindingLightsIntro.anim
 - Assets/BadAssEmotes/SwayLead.anim
 - Assets/BadAssEmotes/Train.anim
 - Assets/BadAssEmotes/PoseGuldo.anim
 - Assets/BadAssEmotes/Breakneck.anim
-- Assets/BadAssEmotes/LetsDanceBoys.anim
 - Assets/Prefabs/FloatLight.prefab
 - Assets/BadAssEmotes/DeepDab.anim
 - Assets/BadAssEmotes/Poyo.anim
@@ -152,10 +152,9 @@ Assets:
 - Assets/BadAssEmotes/SquatKickIntro.anim
 - Assets/BadAssEmotes/Real Slim Shady.anim
 - Assets/BadAssEmotes/PoseRecoome.anim
-- Assets/BadAssEmotes/ChugJug.anim
+- Assets/BadAssEmotes/SwayPartner.anim
 - Assets/BadAssEmotes/Infectious.anim
 - Assets/BadAssEmotes/Steady.anim
-- Assets/BadAssEmotes/SwayPartner.anim
 - Assets/BadAssEmotes/Jpop1.anim
 - Assets/BadAssEmotes/DanceTherapyIntro.anim
 - Assets/BadAssEmotes/Crackdown.anim
@@ -174,7 +173,6 @@ Assets:
 - Assets/BadAssEmotes/MyWorldJoin.anim
 - Assets/BadAssEmotes/Frolic.anim
 - Assets/BadAssEmotes/HondaStep.anim
-- Assets/BadAssEmotes/GGGG3.anim
 - Assets/BadAssEmotes/ElectroSwing.anim
 - Assets/Prefabs/train.prefab
 - Assets/BadAssEmotes/Hype.anim
@@ -240,7 +238,6 @@ Assets:
 - Assets/BadAssEmotes/StarGet.anim
 - Assets/BadAssEmotes/INEEDAMEDICBAG.anim
 - Assets/Models/desker.prefab
-- Assets/BadAssEmotes/DesertRivers.anim
 - Assets/BadAssEmotes/BunnyHop.anim
 - Assets/BadAssEmotes/Penguin.anim
 - Assets/BadAssEmotes/OldSchool.anim

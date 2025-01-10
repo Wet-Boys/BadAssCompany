@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2206656801
+CRC: 3394929052
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -23,3 +23,6 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: moisture_animationreplacements
         Dependency_1: customemotespackage
+    Info_6:
+      Name: badassupdate10and11
+      Dependencies: {}
