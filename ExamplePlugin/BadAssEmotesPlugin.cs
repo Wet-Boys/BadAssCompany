@@ -22,7 +22,7 @@ namespace ExamplePlugin
         public const string PluginGUID = "com.weliveinasociety.badasscompany";
         public const string PluginAuthor = "Nunchuk";
         public const string PluginName = "BadAssCompany";
-        public const string PluginVersion = "1.2.0";
+        public const string PluginVersion = "1.2.2";
         int stageInt = -1;
         int pressInt = -1;
         internal static GameObject stage;
@@ -169,7 +169,7 @@ namespace ExamplePlugin
             //BoneMapper.animClips["Train"].vulnerableEmote = true;
             //CustomEmotesAPI.BlackListEmote("Train");
 
-            AddAnimation("BimBamBom", "BimBamBom", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Bim Bam Boom", "BimBamBom", "", true, .7f);
+            AddAnimation("BimBamBomTest", "BimBamBom", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Bim Bam Boom", "BimBamBom", "", true, .7f);
             AddAnimation("Savage", "Savage", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Savage", "", true, .7f);
             AddAnimation("Stuck", "Stuck", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Stuck", "", true, .7f);
             AddAnimation("Roflcopter", "Roflcopter", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Roflcopter", "", false, .7f);
@@ -271,49 +271,49 @@ namespace ExamplePlugin
 
 
             //Update 10
-            AddAnimation("AirShredder", "AirShredder", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("ArmyBunny", "ArmyBunnyLoop", "ArmyBunny", "ArmyBunnyLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("BoneyBounce", "BoneyBounce", "BoneyBounceLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("BoldStance", "BoldStance", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Bombastic", "Bombastic", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("BounceWit'It", "BounceWit'ItPoop", "BounceWit'It", "BounceWit'ItPoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Boy'sALier", "Boy'sALier", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Caffeinated", "CaffeinatedLoop", "Caffeinated", "CaffeinatedLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("CelebrateMe", "CelebrateMe", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("CluckStrut", "CluckStrut", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("CongaFT", "Conga", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Copines", "Copines", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Cupid'sArrow", "Cupid'sArrowLoop", "Cupid'sArrow", "Cupid'sArrowLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("FastFlex", "FastFlexLoop", "FastFlex", "FastFlexLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("FeelTheFlow", "FeelTheFlow", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("GetGone", "GetGone", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("GetLoose", "GetLoose", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Gloss", "Gloss", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("InHaMood", "InHaMoodLoop", "InHaMood", "InHaMoodLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("MakeSomeWaves", "MakeSomeWaves", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("NanaNana", "NanaNana", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("NightOut", "NightOut", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("PointAndStrut", "PointAndStrutLoop", "PointAndStrut", "PointAndStrutLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("PrimoMoves", "PrimoMoves", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("RapMonster", "RapMonsterLoop", "RapMonster", "RapMonsterLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("RunItDown", "RunItDown", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Rushin'Around", "Rushin'Around", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("ShowYa", "ShowYaLoop", "ShowYa", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Ska-stra-terrestrial", "Ska-stra-terrestrial", "Ska-stra-terrestrialLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("SugarRush", "SugarRush", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Switchstep", "Switchstep", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("YouShouldSeeMeInACrown", "YouShouldSeeMeInACrowLoop", "YouShouldSeeMeInACrown", "YouShouldSeeMeInACrownLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Zany", "Zany", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation2("AirShredder", "AirShredder", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Air Shredder", "AirShredder", "", false, .5f);
+            AddAnimation2("ArmyBunny", "ArmyBunnyLoop", "ArmyBunny", "ArmyBunnyLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Army Bunny", "ArmyBunny", "ArmyBunnyLoop", true, .5f);
+            AddAnimation2("BoneyBounce", "BoneyBounceLoop", "BoneyBounce", "BoneyBounceLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Boney Bounce", "BoneyBounce", "BoneyBounceLoop", true, .5f);
+            AddAnimation2("BoldStance", "BoldStance", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Bold Stance", "BoldStance", "", false, .5f);
+            AddAnimation2("Bombastic", "Bombastic", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Bombastic", "", false, .5f);
+            AddAnimation2("BounceWit'It", "BounceWit'ItPoop", "BounceWit'It", "BounceWit'ItPoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Bounce Wit'It", "BounceWitIt", "BounceWitItPoop", true, .5f);
+            AddAnimation2("Boy'sALier", "Boy'sALier", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Boy's A Lier", "BoysALier", "", true, .5f);
+            AddAnimation2("Caffeinated", "CaffeinatedLoop", "Caffeinated", "CaffeinatedLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Caffeinated", "CaffeinatedLoop", true, .5f);
+            AddAnimation2("CelebrateMe", "CelebrateMe", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Celebrate Me", "CelebrateMe", "", false, .5f);
+            AddAnimation2("CluckStrut", "CluckStrut", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Cluck Strut", "CluckStrut", "", false, .5f);
+            AddAnimation2("CongaFT", "Conga", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Conga", "", false, .5f);
+            AddAnimation2("Copines", "Copines", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Copines", "", true, .5f);
+            AddAnimation2("Cupid'sArrow", "Cupid'sArrowLoop", "Cupid'sArrow", "Cupid'sArrowLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Cupid's Arrow", "CupidsArrow", "CupidsArrowLoop", true, .5f);
+            AddAnimation2("FastFlex", "FastFlexLoop", "FastFlex", "FastFlexLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Fast Flex", "FastFlex", "FastFlexLoop", true, .5f);
+            AddAnimation2("FeelTheFlow", "FeelTheFlow", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Feel The Flow", "FeelTheFlow", "", true, .5f);
+            AddAnimation2("GetGone", "GetGone", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Get Gone", "GetGone", "", true, .5f);
+            AddAnimation2("GetLoose", "GetLoose", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Get Loose", "GetLoose", "", false, .5f);
+            AddAnimation2("Gloss", "Gloss", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Gloss", "", false, .5f);
+            AddAnimation2("InHaMood", "InHaMoodLoop", "InHaMood", "InHaMoodLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "In Ha Mood", "InHaMood", "InHaMoodLoop", true, .5f);
+            AddAnimation2("MakeSomeWaves", "MakeSomeWaves", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Make Some Waves", "MakeSomeWaves", "", true, .5f);
+            AddAnimation2("NanaNana", "NanaNana", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Nana Nana", "NanaNana", "", false, .5f);
+            AddAnimation2("NightOut", "NightOut", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Night Out", "NightOut", "", true, .5f);
+            AddAnimation2("PointAndStrut", "PointAndStrutLoop", "PointAndStrut", "PointAndStrutLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Point And Strut", "PointAndStrut", "PointAndStrutLoop", false, .5f);
+            AddAnimation2("PrimoMoves", "PrimoMoves", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Primo Moves", "PrimoMoves", "", false, .5f);
+            AddAnimation2("RapMonster", "RapMonsterLoop", "RapMonster", "RapMonsterLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Rap Monster", "RapMonster", "RapMonsterLoop", true, .5f);
+            AddAnimation2("RunItDown", "RunItDown", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Run It Down", "RunItDown", "", true, .5f);
+            AddAnimation2("Rushin'Around", "Rushin'Around", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Rushin' Around", "RushinAround", "", true, .5f);
+            AddAnimation2("ShowYa", "ShowYaLoop", "ShowYa", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Show Ya", "ShowYa", "", true, .5f);
+            AddAnimation2("Ska-stra-terrestrial", "Ska-stra-terrestrial", "Ska-stra-terrestrialLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Ska-stra-terrestrial", "Ska-stra-terrestrialLoop", false, .5f);
+            AddAnimation2("SugarRush", "SugarRush", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Sugar Rush", "SugarRush", "", false, .5f);
+            AddAnimation2("Switchstep", "Switchstep", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Switchstep", "", false, .5f);
+            AddAnimation2("YouShouldSeeMeInACrown", "YouShouldSeeMeInACrowLoop", "YouShouldSeeMeInACrown", "YouShouldSeeMeInACrownLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "You Should See Me In A Crown", "YouShouldSeeMeInACrown", "YouShouldSeeMeInACrownLoop", true, .5f);
+            AddAnimation2("Zany", "Zany", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "Zany", "", false, .5f);
 
 
             //Update 11
-            AddAnimation("CheerUp", "CheerUp", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("CrissCross", "CrissCross", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("NuthinButAGThang", "NuthinButAGThangLoop", "NuthinButAGThang", "NuthinButAGThangLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("JabbaSwitchway", "SwitchAway", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("ByeByeBye", "ByeByeByeLoop", "ByeByeBye", "ByeByeByeLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("GoMufasa", "GoMufasa", "", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
-            AddAnimation("Snoop'sWalk", "Snoop'sWalkLoop", "Snoop'sWalk", "Snoop'sWalkLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "", "", "", true, .5f);
+            AddAnimation2("CheerUp", "CheerUp", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Cheer Up", "CheerUp", "", true, .5f);
+            AddAnimation2("CrissCross", "CrissCross", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Criss Cross", "CrissCross", "", true, .5f);
+            AddAnimation2("NuthinButAGThang", "NuthinButAGThangLoop", "NuthinButAGThang", "NuthinButAGThangLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Nuthin But A G Thang", "NuthinButAGThang", "NuthinButAGThangLoop", true, .5f);
+            AddAnimation2("JabbaSwitchway", "JabbaSwitchwaLoopy", "SwitchAway", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Jabba Switchway", "SwitchAway", "", true, .5f);
+            AddAnimation2("ByeByeBye", "ByeByeByeLoop", "ByeByeBye", "ByeByeByeLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Bye Bye Bye", "ByeByeBye", "ByeByeByeLoop", true, .5f);
+            AddAnimation2("GoMufasa", "GoMufasa", "", true, true, true, AnimationClipParams.LockType.headBobbing, "Go Mufasa", "GoMufasa", "", true, .5f);
+            AddAnimation2("Snoop'sWalk", "Snoop'sWalkLoop", "Snoop'sWalk", "Snoop'sWalkLoop", true, true, true, AnimationClipParams.LockType.headBobbing, "Snoop's Walk", "Snoop'sWalk", "SnoopsWalkLoop", true, .5f);
 
             //TODO
             //GameObject pressObject = Assets.Load<GameObject>($"assets/hydrolic/homedepot1.prefab");
@@ -817,7 +817,7 @@ namespace ExamplePlugin
             }
             if (newAnimation == "CluckStrut")
             {
-                mapper.SetAutoWalk(.5f, false);
+                mapper.SetAutoWalk(.3f, false);
             }
             if (newAnimation == "Duck This One")
             {
@@ -1164,6 +1164,97 @@ namespace ExamplePlugin
             }
             EmoteImporter.ImportEmote(new CustomEmoteParams() { primaryAnimationClips = nuts.ToArray(), secondaryAnimationClips = nuts2.ToArray(), audioLoops = looping, primaryAudioClips = startC, syncAnim = sync, syncAudio = sync, startPref = 0, joinPref = 1, lockType = lockType, internalName = customName, primaryDMCAFreeAudioClips = DMCAstartC, willGetClaimedByDMCA = DMCA, audioLevel = audio, displayName = customName });
         }
+        internal void AddAnimation2(string AnimClip, string startClip, string loopClip, bool looping, bool dimAudio, bool sync, AnimationClipParams.LockType lockType, string customName, string dmcaStartClip, string dmcaLoopClip, bool DMCA, float audio)
+        {
+            string internalName = Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim").name;
+            if (customName == "")
+            {
+                customName = internalName;
+            }
+            AudioClip[] startC;
+            if (startClip == "")
+            {
+                startC = null;
+            }
+            else
+            {
+                startC = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/{startClip}.ogg") };
+            }
+            AudioClip[] loopC;
+            if (loopClip == "")
+            {
+                loopC = null;
+            }
+            else
+            {
+                loopC = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/{loopClip}.ogg") };
+            }
 
+            AudioClip[] DMCAstartC;
+            if (dmcaStartClip == "")
+            {
+                DMCAstartC = null;
+            }
+            else
+            {
+                DMCAstartC = new AudioClip[] { Assets.Load<AudioClip>($"assets/DMCAMusic/{dmcaStartClip}_NNTranscription.ogg") };
+            }
+            AudioClip[] DMCAloopC;
+            if (dmcaLoopClip == "")
+            {
+                DMCAloopC = null;
+            }
+            else
+            {
+                DMCAloopC = new AudioClip[] { Assets.Load<AudioClip>($"assets/DMCAMusic/{dmcaLoopClip}_NNTranscription.ogg") };
+            }
+            EmoteImporter.ImportEmote(new CustomEmoteParams() { primaryAnimationClips = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim") }, audioLoops = looping, primaryAudioClips = startC, secondaryAudioClips = loopC, syncAnim = sync, syncAudio = sync, lockType = lockType, internalName = internalName, primaryDMCAFreeAudioClips = DMCAstartC, secondaryDMCAFreeAudioClips = DMCAloopC, willGetClaimedByDMCA = DMCA, audioLevel = audio, displayName = customName });
+        }
+        internal void AddAnimation2(string AnimClip, string AnimClip2, string startClip, string loopClip, bool looping, bool dimAudio, bool sync, AnimationClipParams.LockType lockType, string customName, string dmcaStartClip, string dmcaLoopClip, bool DMCA, float audio)
+        {
+            string internalName = Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim").name;
+            if (customName == "")
+            {
+                customName = internalName;
+            }
+            AudioClip[] startC;
+            if (startClip == "")
+            {
+                startC = null;
+            }
+            else
+            {
+                startC = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/{startClip}.ogg") };
+            }
+            AudioClip[] loopC;
+            if (loopClip == "")
+            {
+                loopC = null;
+            }
+            else
+            {
+                loopC = new AudioClip[] { Assets.Load<AudioClip>($"assets/compressedaudio/{loopClip}.ogg") };
+            }
+
+            AudioClip[] DMCAstartC;
+            if (dmcaStartClip == "")
+            {
+                DMCAstartC = null;
+            }
+            else
+            {
+                DMCAstartC = new AudioClip[] { Assets.Load<AudioClip>($"assets/DMCAMusic/{dmcaStartClip}_NNTranscription.ogg") };
+            }
+            AudioClip[] DMCAloopC;
+            if (dmcaLoopClip == "")
+            {
+                DMCAloopC = null;
+            }
+            else
+            {
+                DMCAloopC = new AudioClip[] { Assets.Load<AudioClip>($"assets/DMCAMusic/{dmcaLoopClip}_NNTranscription.ogg") };
+            }
+            EmoteImporter.ImportEmote(new CustomEmoteParams() { primaryAnimationClips = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip}.anim") }, secondaryAnimationClips = new AnimationClip[] { Assets.Load<AnimationClip>($"@ExampleEmotePlugin_badassemotes:assets/badassemotes/{AnimClip2}.anim") }, audioLoops = looping, primaryAudioClips = startC, secondaryAudioClips = loopC, syncAnim = sync, syncAudio = sync, lockType = lockType, internalName = internalName, primaryDMCAFreeAudioClips = DMCAstartC, secondaryDMCAFreeAudioClips = DMCAloopC, willGetClaimedByDMCA = DMCA, audioLevel = audio, displayName = customName });
+        }
     }
 }

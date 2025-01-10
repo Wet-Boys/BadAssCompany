@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4136251379
+CRC: 3373130960
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8c8ae76c172b78a2212156a876121101
+    Hash: aa3e360dfc76e71ae4746b8c526c4006
   TypeTreeHash:
     serializedVersion: 2
     Hash: 94a12e4aac756a32c2ebade52d6e1c4b
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 8c8ae76c172b78a2212156a876121101
+    Hash: aa3e360dfc76e71ae4746b8c526c4006
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -34,101 +34,165 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/BadAssEmotes/voronoi_noise.png
 - Assets/BadAssEmotes/CaffeinatedLoop.anim
-- Assets/CompressedAudio/Byebyebye.ogg
-- Assets/CompressedAudio/RapMonster.ogg
+- Assets/DMCAMusic/CluckStrut_NNTranscription.ogg
+- Assets/DMCAMusic/CelebrateMe_NNTranscription.ogg
 - Assets/BadAssEmotes/Gloss.anim
-- Assets/CompressedAudio/InHaMoodLoop.ogg
 - Assets/BadAssEmotes/FastFlexLoop.anim
 - Assets/BadAssEmotes/MakeSomeWaves.anim
 - Assets/CompressedAudio/Boy'sALier.ogg
-- Assets/BadAssEmotes/NanaNana.anim
-- Assets/BadAssEmotes/InHaMoodLoop.anim
+- Assets/DMCAMusic/CrissCross_NNTranscription.ogg
 - Assets/CompressedAudio/BoneyBounce.ogg
 - Assets/CompressedAudio/GetLoose.ogg
-- Assets/CompressedAudio/Conga.ogg
-- Assets/CompressedAudio/YouShouldSeeMeInACrown.ogg
-- Assets/CompressedAudio/Caffeinated.ogg
+- Assets/DMCAMusic/Conga_NNTranscription.ogg
+- Assets/DMCAMusic/Byebyebye_NNTranscription.ogg
 - Assets/BadAssEmotes/RapMonster.anim
 - Assets/BadAssEmotes/CheerUp.anim
-- Assets/CompressedAudio/Cheerup.ogg
-- Assets/CompressedAudio/ArmyBunny.ogg
-- Assets/CompressedAudio/Copines.ogg
-- Assets/BadAssEmotes/BoneyBounce.anim
+- Assets/DMCAMusic/Caffeinated_NNTranscription.ogg
 - Assets/CompressedAudio/Ska-stra-terrestrial.ogg
-- Assets/BadAssEmotes/PomPom.prefab
+- Assets/CompressedAudio/Copines.ogg
+- Assets/DMCAMusic/BoldStance_NNTranscription 1.ogg
 - Assets/CompressedAudio/SwitchAway.ogg
 - Assets/CompressedAudio/NuthinButAGThangLoop.ogg
 - Assets/CompressedAudio/Gloss.ogg
-- Assets/BadAssEmotes/Snoop'sWalk.anim
 - Assets/CompressedAudio/CluckStrut.ogg
-- Assets/BadAssEmotes/InHaMood.anim
 - Assets/BadAssEmotes/Cupid'sArrowLoop.anim
+- Assets/DMCAMusic/CupidsArrowLoop_NNTranscription.ogg
 - Assets/BadAssEmotes/CelebrateMe.anim
 - Assets/BadAssEmotes/SugarRush.anim
 - Assets/BadAssEmotes/PrimoMoves.anim
 - Assets/BadAssEmotes/CongaFT.anim
 - Assets/BadAssEmotes/NuthinButAGThangLoop.anim
-- Assets/CompressedAudio/YouShouldSeeMeInACrownLoop.ogg
-- Assets/BadAssEmotes/BounceWit'ItPoop.anim
-- Assets/CompressedAudio/ShowYa.ogg
-- Assets/BadAssEmotes/BoneyBounceLoop.anim
 - Assets/BadAssEmotes/Copines.anim
-- Assets/BadAssEmotes/GetGone.anim
-- Assets/BadAssEmotes/Snoop'sWalkLoop.anim
+- Assets/BadAssEmotes/BounceWit'ItPoop.anim
+- Assets/BadAssEmotes/BoneyBounceLoop.anim
 - Assets/CompressedAudio/Zany.ogg
 - Assets/CompressedAudio/PointAndStrutLoop.ogg
-- Assets/CompressedAudio/BoneyBounceLoop.ogg
-- Assets/BadAssEmotes/YouShouldSeeMeInACrowLoop.anim
-- Assets/BadAssEmotes/Switchstep.anim
 - Assets/BadAssEmotes/Cupid'sArrow.anim
+- Assets/CompressedAudio/Cupid'sArrowLoop.ogg
+- Assets/BadAssEmotes/BounceWit'It.anim
+- Assets/DMCAMusic/GetLoose_NNTranscription.ogg
+- Assets/DMCAMusic/SwitchStep_NNTranscription.ogg
+- Assets/DMCAMusic/BoysALier_NNTranscription.ogg
+- Assets/BadAssEmotes/Zany.anim
+- Assets/DMCAMusic/Snoop'sWalk_NNTranscription.ogg
+- Assets/BadAssEmotes/Caffeinated.anim
+- Assets/DMCAMusic/PointAndStrut_NNTranscription.ogg
+- Assets/DMCAMusic/Ska-stra-terrestrial_NNTranscription.ogg
+- Assets/DMCAMusic/ByeByeByeLoop_NNTranscription.ogg
+- Assets/CompressedAudio/CrissCross.ogg
+- Assets/DMCAMusic/Copines_NNTranscription 1.ogg
+- Assets/DMCAMusic/RapMonster_NNTranscription.ogg
+- Assets/CompressedAudio/BounceWit'It.ogg
+- Assets/DMCAMusic/NanaNana_NNTranscription.ogg
+- Assets/BadAssEmotes/CrissCross.anim
+- Assets/DMCAMusic/RapMonsterloop_NNTranscription.ogg
+- Assets/CompressedAudio/SwitchStep.ogg
+- Assets/DMCAMusic/YouShouldSeeMeInACrownLoop_NNTranscription.ogg
+- Assets/CompressedAudio/RunItDown.ogg
+- Assets/BadAssEmotes/YouShouldSeeMeInACrown.anim
+- Assets/DMCAMusic/BounceWitItPoop_NNTranscription 1.ogg
+- Assets/BadAssEmotes/FeelTheFlow.anim
+- Assets/BadAssEmotes/PointAndStrut.anim
+- Assets/DMCAMusic/BounceWitIt_NNTranscription.ogg
+- Assets/CompressedAudio/GetGone.ogg
+- Assets/BadAssEmotes/ShowYaLoop.anim
+- Assets/BadAssEmotes/ByeByeByeLoop.anim
+- Assets/DMCAMusic/CluckStrut_NNTranscription 1.ogg
+- Assets/DMCAMusic/NuthinButAGThangLoop_NNTranscription.ogg
+- Assets/DMCAMusic/BounceWitItPoop_NNTranscription.ogg
+- Assets/DMCAMusic/PrimoMoves_NNTranscription.ogg
+- Assets/CompressedAudio/MakeSomeWaves.ogg
+- Assets/DMCAMusic/Gloss_NNTranscription.ogg
+- Assets/BadAssEmotes/FastFlex.anim
+- Assets/BadAssEmotes/ByeByeBye.anim
+- Assets/DMCAMusic/Zany_NNTranscription.ogg
+- Assets/DMCAMusic/RunItDown_NNTranscription.ogg
+- Assets/DMCAMusic/Cheerup_NNTranscription 1.ogg
+- Assets/BadAssEmotes/JabbaSwitchway.anim
+- Assets/DMCAMusic/Bombastic_NNTranscription 1.ogg
+- Assets/DMCAMusic/FastFlex_NNTranscription.ogg
+- Assets/DMCAMusic/CaffeinatedLoop_NNTranscription.ogg
+- Assets/BadAssEmotes/AirShredder.anim
+- Assets/DMCAMusic/CaffeinatedLoop_NNTranscription 1.ogg
+- Assets/DMCAMusic/Bombastic_NNTranscription.ogg
+- Assets/BadAssEmotes/voronoi_noise.png
+- Assets/CompressedAudio/RapMonster.ogg
+- Assets/CompressedAudio/Byebyebye.ogg
+- Assets/DMCAMusic/InHaMood_NNTranscription.ogg
+- Assets/DMCAMusic/NuthinButAGThang_NNTranscription.ogg
+- Assets/DMCAMusic/RushinAround_NNTranscription.ogg
+- Assets/CompressedAudio/InHaMoodLoop.ogg
+- Assets/BadAssEmotes/NanaNana.anim
+- Assets/BadAssEmotes/InHaMoodLoop.anim
+- Assets/CompressedAudio/Conga.ogg
+- Assets/DMCAMusic/FastFlexLoop_NNTranscription.ogg
+- Assets/CompressedAudio/YouShouldSeeMeInACrown.ogg
+- Assets/DMCAMusic/GoMufasa_NNTranscription.ogg
+- Assets/CompressedAudio/Caffeinated.ogg
+- Assets/CompressedAudio/Cheerup.ogg
+- Assets/CompressedAudio/ArmyBunny.ogg
+- Assets/BadAssEmotes/BoneyBounce.anim
+- Assets/DMCAMusic/FeelTheFlow_NNTranscription.ogg
+- Assets/BadAssEmotes/PomPom.prefab
+- Assets/DMCAMusic/YouShouldSeeMeInACrown_NNTranscription.ogg
+- Assets/DMCAMusic/ShowYa_NNTranscription.ogg
+- Assets/DMCAMusic/CelebrateMe_NNTranscription 1.ogg
+- Assets/BadAssEmotes/Snoop'sWalk.anim
+- Assets/BadAssEmotes/InHaMood.anim
+- Assets/DMCAMusic/PointAndStrutLoop_NNTranscription.ogg
+- Assets/CompressedAudio/YouShouldSeeMeInACrownLoop.ogg
+- Assets/CompressedAudio/ShowYa.ogg
+- Assets/DMCAMusic/ArmyBunnyLoop_NNTranscription.ogg
+- Assets/BadAssEmotes/GetGone.anim
+- Assets/BadAssEmotes/Snoop'sWalkLoop.anim
+- Assets/BadAssEmotes/YouShouldSeeMeInACrowLoop.anim
+- Assets/CompressedAudio/BoneyBounceLoop.ogg
+- Assets/DMCAMusic/Conga_NNTranscription 1.ogg
+- Assets/BadAssEmotes/Switchstep.anim
 - Assets/CompressedAudio/CelebrateMe.ogg
 - Assets/BadAssEmotes/CluckStrut.anim
-- Assets/CompressedAudio/Cupid'sArrowLoop.ogg
 - Assets/CompressedAudio/FastFlexLoop.ogg
-- Assets/BadAssEmotes/BounceWit'It.anim
+- Assets/DMCAMusic/GetGone_NNTranscription.ogg
 - Assets/CompressedAudio/CaffeinatedLoop.ogg
 - Assets/CompressedAudio/Rushin'Around.ogg
 - Assets/BadAssEmotes/RunItDown.anim
 - Assets/BadAssEmotes/NightOut.anim
 - Assets/CompressedAudio/NanaNana.ogg
 - Assets/BadAssEmotes/Ska-stra-terrestrial.anim
+- Assets/DMCAMusic/NightOut_NNTranscription.ogg
 - Assets/CompressedAudio/Ska-stra-terrestrialLoop.ogg
-- Assets/BadAssEmotes/Zany.anim
-- Assets/BadAssEmotes/Caffeinated.anim
+- Assets/DMCAMusic/Cheerup_NNTranscription.ogg
+- Assets/DMCAMusic/Copines_NNTranscription.ogg
+- Assets/BadAssEmotes/KneeSlapper.anim
 - Assets/BadAssEmotes/Boy'sALier.anim
 - Assets/CompressedAudio/AirShredder.ogg
-- Assets/BadAssEmotes/KneeSlapper.anim
+- Assets/DMCAMusic/BoneyBounceLoop_NNTranscription 1.ogg
+- Assets/DMCAMusic/BoneyBounceLoop_NNTranscription.ogg
+- Assets/DMCAMusic/AirShredder_NNTranscription.ogg
 - Assets/BadAssEmotes/Materials 1/voronoi_noise.mat
 - Assets/BadAssEmotes/Rushin'Around.anim
-- Assets/CompressedAudio/CrissCross.ogg
-- Assets/CompressedAudio/BounceWit'It.ogg
+- Assets/DMCAMusic/BoneyBounce_NNTranscription.ogg
 - Assets/CompressedAudio/Snoop'sWalk.ogg
 - Assets/BadAssEmotes/ArmyBunny.anim
 - Assets/BadAssEmotes/PointAndStrutLoop.anim
-- Assets/BadAssEmotes/CrissCross.anim
-- Assets/CompressedAudio/SwitchStep.ogg
-- Assets/CompressedAudio/RunItDown.ogg
+- Assets/DMCAMusic/AirShredder_NNTranscription 1.ogg
+- Assets/DMCAMusic/SnoopsWalkLoop_NNTranscription.ogg
+- Assets/DMCAMusic/Ska-stra-terrestrialLoop_NNTranscription.ogg
 - Assets/CompressedAudio/NuthinButAGThang.ogg
 - Assets/BadAssEmotes/ShowYa.anim
 - Assets/CompressedAudio/PrimoMoves.ogg
-- Assets/BadAssEmotes/YouShouldSeeMeInACrown.anim
-- Assets/BadAssEmotes/FeelTheFlow.anim
 - Assets/CompressedAudio/Cupid'sArrow.ogg
-- Assets/BadAssEmotes/PointAndStrut.anim
+- Assets/DMCAMusic/SugarRush_NNTranscription.ogg
 - Assets/CompressedAudio/NightOut.ogg
-- Assets/CompressedAudio/GetGone.ogg
-- Assets/BadAssEmotes/ShowYaLoop.anim
-- Assets/BadAssEmotes/ByeByeByeLoop.anim
 - Assets/BadAssEmotes/BimBamBomTest.anim
 - Assets/BadAssEmotes/ArmyBunnyLoop.anim
 - Assets/CompressedAudio/PointAndStrut.ogg
-- Assets/CompressedAudio/MakeSomeWaves.ogg
+- Assets/DMCAMusic/BoldStance_NNTranscription.ogg
 - Assets/BadAssEmotes/Bombastic.anim
-- Assets/BadAssEmotes/FastFlex.anim
 - Assets/CompressedAudio/BoldStance.ogg
 - Assets/BadAssEmotes/PomPom.blend
+- Assets/DMCAMusic/CupidsArrow_NNTranscription.ogg
 - Assets/CompressedAudio/ArmyBunnyLoop.ogg
 - Assets/CompressedAudio/FeelTheFlow.ogg
 - Assets/BadAssEmotes/BoldStance.anim
@@ -137,16 +201,18 @@ Assets:
 - Assets/CompressedAudio/InHaMood.ogg
 - Assets/CompressedAudio/ByeByeByeLoop.ogg
 - Assets/BadAssEmotes/RapMonsterLoop.anim
-- Assets/BadAssEmotes/ByeByeBye.anim
-- Assets/BadAssEmotes/JabbaSwitchway.anim
+- Assets/DMCAMusic/MakeSomeWaves_NNTranscription.ogg
 - Assets/CompressedAudio/RapMonsterloop.ogg
 - Assets/BadAssEmotes/GoMufasa.anim
 - Assets/BadAssEmotes/JabbaSwitchwaLoopy.anim
-- Assets/BadAssEmotes/AirShredder.anim
+- Assets/DMCAMusic/ArmyBunnyLoop_NNTranscription 1.ogg
+- Assets/DMCAMusic/SwitchAway_NNTranscription.ogg
 - Assets/CompressedAudio/GoMufasa.ogg
 - Assets/CompressedAudio/SugarRush.ogg
 - Assets/BadAssEmotes/NuthinButAGThang.anim
+- Assets/DMCAMusic/ArmyBunny_NNTranscription.ogg
 - Assets/CompressedAudio/BounceWit'ItPoop.ogg
 - Assets/CompressedAudio/Snoop'sWalkLoop.ogg
+- Assets/DMCAMusic/InHaMoodLoop_NNTranscription.ogg
 - Assets/BadAssEmotes/GetLoose.anim
 Dependencies: []
